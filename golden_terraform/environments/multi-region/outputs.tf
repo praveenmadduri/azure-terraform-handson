@@ -1,0 +1,9 @@
+output "resource_group_eastus" { value = module.rg_eastus.name }
+output "vnet_id_eastus" { value = module.vnet_eastus.vnet_id }
+output "nsg_id_eastus" { value = module.nsg_eastus.id }
+output "public_ip_eastus" { value = module.public_ip_eastus.ip_address }
+output "nic_id_eastus" { value = module.nic_eastus.id }
+output "vm_id_eastus" { value = module.rhel_vm_eastus.id }
+output "log_analytics_id_eastus" { value = module.log_analytics_eastus.id }
+output "key_vault_id_eastus" { value = module.key_vault_eastus.id }
+output "private_dns_id_eastus" { value = module.private_dns_eastus.id }
