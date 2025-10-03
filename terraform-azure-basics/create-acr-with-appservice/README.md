@@ -6,6 +6,7 @@ This example provisions:
 - Separate Virtual Networks per region
 - Full mesh VNet peering between regions
 
+
 ## Architecture
 
 ```
